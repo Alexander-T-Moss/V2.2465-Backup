@@ -3,8 +3,16 @@ host = 0.0.0.0
 port = 7125
 max_upload_size = 1024
 
+[wled enclosure]
+type = http
+address = wled.local
+initial_red = 0.6
+initial_green = 0.6
+initial_blue = 0.6
+chain_count = 13
+
 [file_manager]
-enable_object_processing = False
+enable_object_processing = True
 
 [data_store]
 temperature_store_size = 600
