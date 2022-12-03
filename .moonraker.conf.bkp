@@ -3,9 +3,9 @@ host = 0.0.0.0
 port = 7125
 max_upload_size = 1024
 
-[wled enclosure]
+[wled DayBreakNeos]
 type = http
-address = RainbowShift.local
+address = 192.168.1.183
 initial_red = 0.6
 initial_green = 0.6
 initial_blue = 0.6
