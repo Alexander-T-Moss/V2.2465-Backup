@@ -5,11 +5,11 @@ max_upload_size = 1024
 
 [wled enclosure]
 type = http
-address = 192.168.1.215
+address = RainbowShift.local
 initial_red = 0.6
 initial_green = 0.6
 initial_blue = 0.6
-chain_count = 13
+chain_count = 26
 
 [file_manager]
 enable_object_processing = True
