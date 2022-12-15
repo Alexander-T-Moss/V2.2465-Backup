@@ -6,7 +6,9 @@ max_upload_size = 1024
 [wled DayBreakNeos]
 type = http
 address = 192.168.1.183
-initial_preset = 5
+initial_red = 0.2
+initial_green = 0.2
+initial_blue = 0.2
 chain_count = 26
 
 [file_manager]
